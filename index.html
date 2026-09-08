@@ -33,4 +33,14 @@ fbq('track', 'PageView');
 <section class="section"><div class="container"><div class="section-title"><small>Reviews</small><h2>What Our Partners Say</h2><p>Real stories from people earning with us</p></div><div class="cards"><div class="card testimonial"><h3>Ahmed K.</h3><p>“I was skeptical at first, but after two weeks I started seeing results. The flexibility is very helpful.”</p></div><div class="card testimonial"><h3>Sana M.</h3><p>“As a mother of two, I needed a flexible way to earn income. This program allows me to work when I have time.”</p></div><div class="card testimonial"><h3>Faisal B.</h3><p>“The training was clear. The support team is always available to help.”</p></div></div></div></section>
 <section class="section"><div class="container notice"><strong>Important Information:</strong> Income figures shown on this website are examples only and are not guarantees of results. Individual results will vary based on time invested, skill level, and task completion rate.</div></section></main>
 <div class="floating-cta"><a class="cta whatsapp-link" href="https://s.url99.me/7f10w5o5" rel="noopener noreferrer"><svg class="wa-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 3C8.87 3 3.05 8.78 3.05 15.9c0 2.28.6 4.51 1.75 6.47L3 29l6.8-1.78a13.03 13.03 0 0 0 6.24 1.59C23.2 28.81 29 23.02 29 15.9S23.2 3 16.04 3Z"></path></svg>Contact us - WhatsApp</a></div>
-<footer>© 2026 All Rights Reserved. This site is for informational purposes only.</footer></body></html>
+<footer>© 2026 All Rights Reserved. This site is for informational purposes only.</footer>
+<script>
+document.querySelectorAll('.whatsapp-link').forEach(function(link) {
+  link.addEventListener('click', function() {
+    if (typeof fbq === 'function') {
+      fbq('track', 'Contact');
+    }
+  });
+});
+</script>
+</body></html>
